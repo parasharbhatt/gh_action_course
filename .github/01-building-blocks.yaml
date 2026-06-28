@@ -2,7 +2,8 @@ name: 01 - Building Blocks
 description: This is a collection of building blocks that can be used to create workflows in GitHub Actions. |
              Each building block is a reusable component that can be combined with other blocks |
              to create complex workflows.  
-on: push:
+on: 
+  push:
 jobs:
   echo-hello:
     runs-on: ubuntu-latest
